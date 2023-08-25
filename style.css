@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* banner */
+#banner{
+    width: 398px;
+    height: 100px;
+    border-style: double;
+    background-color: white;
+    border-width: 1px;
+    margin: auto;
+}
+
+/* logo */
+#logo{
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    background-color: white;
+    border-width: 0px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+/* sosyal medya ikonları */
+#sosyal{
+    width: 180px;
+    height: 40px;
+    border-style: none;
+    border-width: 1px;
+    background-color:white; 
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+#ikon{
+    float: right;
+    margin-right: 15px;
+}
+
+/* ana menü*/
+#anamenu{
+    width: 398px;
+    height: 50px;
+    border-style: double;
+    background-color: silver;
+    border-width: 1px;
+    margin: auto;
+}
+
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+    width: 150px;
+    border-style: solid; 
+    border-width: 3px;
+    border-radius: 8px;
+    border-color: black;
+    background-color: silver;
+    float: left;
+    padding: 4px;
+    margin-left: 23px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+#anamenu ul a{
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+#anamenu ul a:link{
+    color: black;
+    font-size: 15px;
+}
+#anamenu ul a:visited{
+    color: black;
+}
+#anamenu ul a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+#anamenu ul a:active{
+    color: black;
+}
+
+#sayfa{
+    width: 400px;
+    min-height: 978px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+/* içerik ve yanmenü kodları */
+#icerik{
+    width: 300px;
+    min-height: 770px;
+    border-style: double;
+    background-color:silver;
+    border-width: 1px;
+    float: left;
+}
+
+#yanmenu{
+    width: 96px;
+    min-height: 770px;
+    border-style: double;
+    background-color: silver;
+    border-width: 1px;
+    float: left;
+}
+.metin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: black;
+    margin: 2px;
+}
+.resim{
+     float: left;
+     width: 153px;
+     margin: 1px;   
+}
+.ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;   
+    list-style-type: decimal;
+    margin: 15px;
+}
+.baslik{
+    font-family: Arial, Helvetica, sans-serif, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Alt menü */
+#altmenu{
+    width: 398px;
+    min-height: 50px;
+    border-style: double;
+    background-color:white;
+    border-width: 1px;
+    float: left;
+    text-align: center;
+    color: black;
+}
+
+#altmenu a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+#altmenu a:hover{
+    color: gray;
+    text-decoration: underline;
+}
